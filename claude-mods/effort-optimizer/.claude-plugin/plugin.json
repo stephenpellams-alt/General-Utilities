@@ -1,0 +1,1 @@
+{ "name": "effort-optimizer", "version": "0.1.0", "description": "Lowers or raises reasoning effort per model step based on the prompt" }

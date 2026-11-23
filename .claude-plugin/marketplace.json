@@ -1,0 +1,12 @@
+{
+  "name": "general-utilities",
+  "owner": { "name": "Stephen Ellams" },
+  "plugins": [
+    { "name": "input-router", "source": "./claude-mods/input-router", "description": "Classifies each prompt and hints the model how to handle it" },
+    { "name": "effort-optimizer", "source": "./claude-mods/effort-optimizer", "description": "Adjusts reasoning effort per step based on the prompt" },
+    { "name": "subagent-model-selector", "source": "./claude-mods/subagent-model-selector", "description": "Picks cheaper models for light subagents" },
+    { "name": "cache-clock", "source": "./claude-mods/cache-clock", "description": "Status line countdown for the prompt cache" },
+    { "name": "handoff", "source": "./claude-mods/handoff", "description": "/handoff writes a session handoff to HANDOFF.md" },
+    { "name": "efficient-browser-usage", "source": "./claude-mods/efficient-browser-usage", "description": "Browser-efficiency guidance in the system prompt" }
+  ]
+}
