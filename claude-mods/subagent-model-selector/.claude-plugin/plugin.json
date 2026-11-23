@@ -1,0 +1,1 @@
+{ "name": "subagent-model-selector", "version": "0.1.0", "description": "Picks a cheaper model for light subagents unless one was chosen" }

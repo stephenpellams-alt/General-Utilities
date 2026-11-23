@@ -1,0 +1,1 @@
+{ "name": "input-router", "version": "0.1.0", "description": "Classifies each prompt (browse, research, quick, code) and hints the model how to handle it" }
